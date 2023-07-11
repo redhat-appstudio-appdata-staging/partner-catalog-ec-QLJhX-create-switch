@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: partner-catalog-ec-pokh
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/anjoseph-tenant/partner-catalog-ec/partner-catalog-ec-pokh@sha256:c11c1f7b3b0402cf236e0a18f03c303f5f4ca1f911ea7634309014563bda04ac
+      - image: quay.io/redhat-user-workloads-stage/anjoseph-tenant/partner-catalog-ec/partner-catalog-ec-pokh@sha256:9819f0d6d87a89fa37fafc6494076a0c556829a0bf23ec1717d8d3bc96934be5
         name: my-java-springboot
         resources: {}
 status: {}
