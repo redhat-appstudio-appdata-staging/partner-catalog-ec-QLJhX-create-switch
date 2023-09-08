@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-ec-pokh
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/anjoseph-tenant/partner-catalog-ec/partner-catalog-ec-pokh@sha256:c11c1f7b3b0402cf236e0a18f03c303f5f4ca1f911ea7634309014563bda04ac
+      - image: quay.io/redhat-user-workloads-stage/anjoseph-tenant/partner-catalog-ec/partner-catalog-ec-pokh@sha256:5081512d379403ee7d33f52e9689533d426b3f2b98ea81dd8abc6d91166a6fd6
         name: my-java-springboot
         ports:
         - containerPort: 8081
